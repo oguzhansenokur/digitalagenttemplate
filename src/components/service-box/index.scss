@@ -1,0 +1,25 @@
+.service-box{
+    width: 308px;
+    height: 379px;
+    padding: 39px 32px 57px 31px;
+    border-radius:40px ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    background-color: #fff;
+    &__icon{
+        margin-bottom: 31px;
+
+    }
+    &__title{
+        margin-bottom: 27px;
+        font-size: 24px;
+    }
+    &__desc{
+        color: #757575;
+        font-size: 16px;
+    }
+
+}
